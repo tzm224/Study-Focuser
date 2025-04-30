@@ -1,7 +1,7 @@
 # Study-Focuser 学习专注器应用
 
 这是一个基于网页的学习专注器（番茄钟）应用，旨在帮助用户通过结构化的专注和休息周期来提高学习或工作效率。
-灵感来自于 [为什么我能每天学习10小时](https://www.bilibili.com/video/BV1naLozQEBq?buvid=Y24C1A2AE0197878447B889B2BC0C70673C6&is_story_h5=false&mid=Aowh7lXsjrItvnRdo9qUvQ%3D%3D&plat_id=168&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=B64C0A17-B12C-4CEC-A010-672477035657&share_source=WEIXIN&share_tag=s_i&spmid=main.my-history-search-result.option-more.0&timestamp=1745976273&unique_k=r54VEe1&up_id=2229541&vd_source=9d43008ecf4c844f2e9c094b8bbe8e12)。
+项目来自于 [为什么我能每天学习10小时](https://www.bilibili.com/video/BV1naLozQEBq?buvid=Y24C1A2AE0197878447B889B2BC0C70673C6&is_story_h5=false&mid=Aowh7lXsjrItvnRdo9qUvQ%3D%3D&plat_id=168&share_from=ugc&share_medium=iphone&share_plat=ios&share_session_id=B64C0A17-B12C-4CEC-A010-672477035657&share_source=WEIXIN&share_tag=s_i&spmid=main.my-history-search-result.option-more.0&timestamp=1745976273&unique_k=r54VEe1&up_id=2229541&vd_source=9d43008ecf4c844f2e9c094b8bbe8e12)。
 
 ## 主要功能
 
