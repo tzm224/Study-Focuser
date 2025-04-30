@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习专注器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="phase-focus">
+    <div class="container">
+        <h1>学习专注器</h1>
+        
+        <div class="timer-container">
+            <div class="phase-indicator">
+                <span id="phase-display">FOCUS</span>
+            </div>
+            
+            <div class="timer">
+                <span id="timer-display">90:00</span>
+            </div>
+            
+            <div class="status-message" id="status-message">
+                <!-- 状态消息将在这里显示 -->
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="start-button" class="btn btn-primary">开始</button>
+            <button id="pause-button" class="btn btn-warning" disabled>暂停</button>
+            <button id="reset-button" class="btn btn-danger">重置</button>
+        </div>
+
+        <div class="extra-controls">
+             <button id="preview-sound-button" class="btn btn-secondary">试听提示音</button>
+        </div>
+
+        <div class="stats-panel">
+            <div class="stat-item" id="cycles-stat">
+                <h3>完成周期</h3>
+                <p><span id="cycles-count">0</span> 个</p>
+            </div>
+            <div class="stat-item" id="focus-stat">
+                <h3>今日专注</h3>
+                <p><span id="total-focus-time">0小时 0分钟</span></p>
+            </div>
+        </div>
+        
+        <div class="info-panel">
+            <div class="info-item">
+                <h3>专注模式</h3>
+                <p>90分钟专注学习</p>
+            </div>
+            <div class="info-item">
+                <h3>随机提示</h3>
+                <p>每5-10分钟随机提示休息10秒</p>
+            </div>
+            <div class="info-item">
+                <h3>长休息</h3>
+                <p>专注结束后休息20分钟</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 音频文件 -->
+    <audio id="focus-start-sound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-software-interface-start-2574.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="long-break-start-sound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-bell-notification-933.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="short-break-prompt-sound" preload="auto">
+        <source src="custom_prompt.mp3" type="audio/mpeg"> <!-- Custom sound -->
+    </audio>
+    <audio id="phase-end-sound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-achievement-bell-600.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="reward-sound" preload="auto">
+        <source src="https://assets.mixkit.co/sfx/preview/mixkit-video-game-win-2016.mp3" type="audio/mpeg"> <!-- Reward sound -->
+    </audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
